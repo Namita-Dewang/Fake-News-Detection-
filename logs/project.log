@@ -1,3 +1,94 @@
 2026-07-04 16:27:53,013 | INFO | Loading Fake.csv...
 2026-07-04 16:27:53,503 | INFO | Loading True.csv...
 2026-07-04 16:27:53,928 | INFO | Datasets loaded successfully.
+2026-07-04 18:12:48,462 | INFO | Loading Fake.csv...
+2026-07-04 18:12:49,050 | INFO | Loading True.csv...
+2026-07-04 18:12:49,532 | INFO | Datasets loaded successfully.
+2026-07-04 18:12:49,532 | INFO | Validating Fake dataset...
+2026-07-04 18:12:49,532 | INFO | Shape: (23481, 4)
+2026-07-04 18:12:49,533 | INFO | All required columns are present.
+2026-07-04 18:12:49,537 | INFO | Missing Values:
+2026-07-04 18:12:49,558 | INFO | 
+title      0
+text       0
+subject    0
+date       0
+dtype: int64
+2026-07-04 18:12:49,613 | INFO | Duplicate Rows: 3
+2026-07-04 18:12:49,615 | INFO | Data Types:
+2026-07-04 18:12:49,615 | INFO | 
+title      str
+text       str
+subject    str
+date       str
+dtype: object
+2026-07-04 18:12:49,615 | INFO | Fake validation completed successfully.
+
+2026-07-04 18:12:49,615 | INFO | Validating True dataset...
+2026-07-04 18:12:49,616 | INFO | Shape: (21417, 4)
+2026-07-04 18:12:49,616 | INFO | All required columns are present.
+2026-07-04 18:12:49,617 | INFO | Missing Values:
+2026-07-04 18:12:49,617 | INFO | 
+title      0
+text       0
+subject    0
+date       0
+dtype: int64
+2026-07-04 18:12:49,659 | INFO | Duplicate Rows: 206
+2026-07-04 18:12:49,659 | INFO | Data Types:
+2026-07-04 18:12:49,660 | INFO | 
+title      str
+text       str
+subject    str
+date       str
+dtype: object
+2026-07-04 18:12:49,661 | INFO | True validation completed successfully.
+
+2026-07-04 18:17:23,692 | INFO | Loading Fake.csv...
+2026-07-04 18:17:24,509 | INFO | Loading True.csv...
+2026-07-04 18:17:25,313 | INFO | Datasets loaded successfully.
+2026-07-04 18:17:25,313 | INFO | Validating Fake dataset...
+2026-07-04 18:17:25,313 | INFO | Shape: (23481, 4)
+2026-07-04 18:17:25,313 | INFO | All required columns are present.
+2026-07-04 18:17:25,316 | INFO | Missing Values:
+2026-07-04 18:17:25,317 | INFO | 
+title      0
+text       0
+subject    0
+date       0
+dtype: int64
+2026-07-04 18:17:25,371 | INFO | Duplicate Rows: 3
+2026-07-04 18:17:25,371 | INFO | Data Types:
+2026-07-04 18:17:25,372 | INFO | 
+title      str
+text       str
+subject    str
+date       str
+dtype: object
+2026-07-04 18:17:25,373 | INFO | Fake validation completed successfully.
+
+2026-07-04 18:17:25,373 | INFO | Validating True dataset...
+2026-07-04 18:17:25,373 | INFO | Shape: (21417, 4)
+2026-07-04 18:17:25,373 | INFO | All required columns are present.
+2026-07-04 18:17:25,374 | INFO | Missing Values:
+2026-07-04 18:17:25,374 | INFO | 
+title      0
+text       0
+subject    0
+date       0
+dtype: int64
+2026-07-04 18:17:25,415 | INFO | Duplicate Rows: 206
+2026-07-04 18:17:25,416 | INFO | Data Types:
+2026-07-04 18:17:25,417 | INFO | 
+title      str
+text       str
+subject    str
+date       str
+dtype: object
+2026-07-04 18:17:25,417 | INFO | True validation completed successfully.
+
+2026-07-04 18:17:25,417 | INFO | Adding labels...
+2026-07-04 18:17:25,458 | INFO | Merging datasets...
+2026-07-04 18:17:25,464 | INFO | Shuffling dataset...
+2026-07-04 18:17:25,624 | INFO | Saving dataset...
+2026-07-04 18:17:28,582 | INFO | Dataset saved to: D:\Projects\fake News Detection\data\interim\news.csv
